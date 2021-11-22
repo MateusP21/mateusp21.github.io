@@ -5,17 +5,49 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
   <title>Document</title>
 </head>
 
 <body>
+  <style>
+    body {
+      font-family: 'IBM Plex Sans', sans-serif;
+      background: #000D6B;
+      color: whitesmoke;
+      font-size: 16px;
+    }
+
+    .title {
+      font-size: 40px;
+      color: #FF5DA2;
+    }
+
+    .sub-title {
+      font-size: 20px;
+      color: #99DDCC;
+    }
+
+    .link {
+      font-size: 14px;
+      text-decoration: none;
+      color: #0ae915;
+    }
+
+    .list-item {
+      list-style: none;
+    }
+  </style>
   <section class="sobre-mim">
     <img src="https://ca.slack-edge.com/TMDDFEPFU-U02LBJ56F18-2655c89cd0e6-512" alt="Foto do Mateus Passo"
       width="100px" />
-    <h1>Mateus Passo</h1>
-    <marquee direction="up" truespeed="60">
-      <strong>Olá visitante!!!</strong>
-    </marquee>
+    <h1 class="title">Mateus Passo</h1>
+    <h2 class="sub-title">Olá visitante!!! </h2>
     <em>
       <br />
       Meu nome é Mateus Passo, moro em Duque de Caxias - RJ , sou estudante de
@@ -25,20 +57,20 @@
   </section>
 
   <section id="minhas-habilidades">
-    <h3>Minhas Habilidades</h3>
+    <h2 class="sub-title">Minhas Habilidades</h2>
     <ul>
-      <li>Javascript</li>
-      <li><strong>CSS</strong></li>
-      <li>HTML</li>
+      <li class="list-item">Javascript</li>
+      <li class="list-item"><strong>CSS</strong></li>
+      <li class="list-item">HTML</li>
     </ul>
-    <a href="https://ca.slack-edge.com/TMDDFEPFU-U02LBJ56F18-2655c89cd0e6-512">Ó eu aqui</a>
-    <p id="blog"> Blog sobre as novidades de tecnologia: <a href="https://tecnoblog.net/">Tecnoblog</a></p>
+    <a class="link" href="https://ca.slack-edge.com/TMDDFEPFU-U02LBJ56F18-2655c89cd0e6-512">Ó eu aqui</a>
+    <p id="blog"> Blog sobre as novidades de tecnologia: <a class="link" href="https://tecnoblog.net/">Tecnoblog</a></p>
 
-    <h4>Indice</h4>
+    <h2 class="sub-title">Indice</h2>
     <ul>
-      <li><a href="#sobre-mim">Sobre mim</a></li>
-      <li><a href="#minhas-habilidades"> Minhas habilidades</a></li>
-      <li><a href="#minhas-habilidades"> Blog</a></li>
+      <li class="list-item"><a class="link" href="#sobre-mim">Sobre mim</a></li>
+      <li class="list-item"><a class="link" href="#minhas-habilidades"> Minhas habilidades</a></li>
+      <li class="list-item"><a class="link" href="#minhas-habilidades"> Blog</a></li>
     </ul>
   </section>
 </body>
